@@ -1,0 +1,14 @@
+ion-col{
+    border: 1rem solid green;
+    size: 6;
+}
+
+@media screen and (min-width: 768px) {
+    /* Estilos para pantallas con ancho máximo de 500px */
+    .A {
+           order: 2;
+        }
+    .B {
+            order: 1;
+         }
+    }

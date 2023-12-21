@@ -1,0 +1,15 @@
+.imagen{
+    width: 9rem;
+    height: auto;
+    align-items: center;
+}
+.texto h3{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    /* Estilos para pantallas con ancho máximo de 500px */
+        .imagen{
+            display: none;
+        }
+    }
